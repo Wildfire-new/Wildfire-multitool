@@ -1,22 +1,18 @@
-SCC Multi Tool script tested on Linux 18.04
+Wildfire Multi Tool script tested on Linux 18.04
 (Automatic IPv6 configuration is valid only for U18 contabo servers)
 
-SCC MN install guide
-
-Quick guide
-https://stakecube.info/stakecubecoin-dip3-masternode-setup-quick-guide/
-
-Full guide
-https://stakecube.info/stakecubecoin-dip3-masternode-setup-full-guide/
+Wildfire MN install guide
 
 
-Commands to install sccmultitool.sh
 
-wget https://raw.githubusercontent.com/stakecube/SCC-multitool/master/sccmultitool.sh
 
-chmod +x sccmultitool.sh
+Commands to install wildfiremultitool.sh
 
-./sccmultitool.sh
+wget https://github.com/Wildfire-new/Wildfire-multitool/blob/master/wildfiremultitool.sh
+
+chmod +x wildfiremultitool.sh
+
+./wildfiremultitool.sh
 
 
 New server note
@@ -45,7 +41,7 @@ RPCport = Default RPCport is 39999 use unique for multinode
 Check.sh instructions (This will be replaced with the health check and repair tool soon)
 
 Updated check.sh file for new commands if you are using an older version of this script
-wget https://github.com/stakecube/SCC-multitool/blob/master/check.sh
+wget 
 
 chmod +x check.sh
 
