@@ -33,15 +33,15 @@ bls generate
 
 note this info and enter carefully
 
-Port = Default port is 40000 and is set for you
+Port = Default port is 25572 and is set for you
 
-RPCport = Default RPCport is 39999 use unique for multinode
+RPCport = Default RPCport is 25571 use unique for multinode
 
 
 Check.sh instructions (This will be replaced with the health check and repair tool soon)
 
 Updated check.sh file for new commands if you are using an older version of this script
-wget 
+wget https://github.com/Wildfire-new/Wildfire-multitool/blob/master/check.sh
 
 chmod +x check.sh
 
